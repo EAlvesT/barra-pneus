@@ -1,0 +1,16 @@
+.footer {
+  position: relative;
+  width: 100%;
+  padding: 25px 35px;
+  text-align: center;
+  background: linear-gradient(90deg, var(--fundoCorPrimaria), var(--fundoCorPrimaria), var(--fundoCorPrimaria), var(--fundoCorSecundaria));
+  color: var(--fontFooter);
+  border-top: 3px solid var(--bordaSuperior);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 700px) {
+  .footer {
+    padding: 45px 35px;
+  }
+}

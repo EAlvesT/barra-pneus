@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-poppins);
+  background-color: var(--fundoPagina);
+}
+
+section {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  //BODY
+  --fundoPagina: #26272A;
+
+  // HEADER
+  --fundoHeader: #4d4d4d;
+  --fonteLinks: #fff;
+  --bordaHeader: #FBBB0A;
+
+  //HERO
+  --fonteTextos: #FFF;
+
+  //SERVICOS
+  --fundoServicos: #fff;
+
+  //GALERIA
+  --fundoGaleria: #000;
+  --fonteGaleria: #fff;
+  --fonteBotao: #000;
+  --fundoBotao: #c59103;
+  --sombraBotao: #FBBB0A;
+
+  //CONTATO
+  --fundoContato: #fff;
+  --fonteContato: #000;
+  --textoContato: #7a7a7a;
+
+  //ENDERECO
+  --fundoEndereco: #fff;
+  --fonteEndereco: #000;
+
+  //FOOTER
+  --fontFooter: #fff;
+  --fundoCorPrimaria: #000;
+  --fundoCorSecundaria: #FBBB0A;
+  --bordaSuperior: #FBBB0A;
+}

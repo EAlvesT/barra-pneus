@@ -1,0 +1,70 @@
+.contato {
+  background-color: var(--fundoContato);
+  padding: 65px 30px;
+
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+}
+
+.contatoContainer {
+  width: 100%;
+  padding: 15px 10px;
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 55px;
+}
+
+.contatoCard {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+
+  span {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  p {
+    color: var(--textoContato);
+    font-size: 1.1rem;
+  }
+
+  a {
+    color: var(--textoContato);
+    font-size: 1.1rem;
+    text-decoration: underline;
+  }
+}
+
+.containerImg {
+  width: 85px;
+  height: 85px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media(min-width: 800px) {
+  .contato h1 {
+    font-size: 2.6rem;
+  }
+
+  .contatoContainer {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 15px;
+  }
+
+  .containerImg {
+    width: 105px;
+    height: 105px;
+  }
+}

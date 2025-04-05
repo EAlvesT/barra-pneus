@@ -1,0 +1,106 @@
+.header {
+  position: relative;
+  width: 100%;
+  padding: 15px 10px;
+  background-color: rgba(0, 0, 0, 0.73);
+  border-bottom: 2px solid var(--bordaHeader);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 0 15px 0 var(--bordaHeader);
+  z-index: 99;
+}
+
+.centerContent {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  .links {
+    color: var(--fonteLinks);
+    padding: 10px 7px;
+    transition: font-weight .2s ease-in-out;
+
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+.fixo {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: rgba(32, 32, 32, 0.73);
+  -webkit-box-shadow: 0px 6px 20px -12px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 6px 20px -12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 6px 20px -12px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  padding: 15px 25px;
+  z-index: 99;
+  font-weight: 600;
+}
+
+.centerContentBefore {
+  padding-bottom: 55px;
+}
+
+.containerWpp {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  right: 35px;
+  bottom: 35px;
+  border-radius: 100%;
+  transition: transform .2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+.botaoWpp {
+  width: 100%;
+  height: 100%;
+}
+
+.buttonTop {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  left: 35px;
+  bottom: 35px;
+  border-radius: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .header {
+    padding: 25px 15px;
+  }
+
+  .centerContent {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .links {
+    font-size: 1.2rem;
+  }
+}
