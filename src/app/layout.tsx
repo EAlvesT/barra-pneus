@@ -40,10 +40,10 @@ export default function RootLayout({
     <html lang="pt" suppressHydrationWarning>
       <head>
         {/* Google Analytics */}
-        {/* <Script
+        <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-        /> */}
+        />
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
