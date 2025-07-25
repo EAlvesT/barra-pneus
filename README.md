@@ -4,9 +4,9 @@ Ele se trata de uma Landing Page criada por mim, para uma borracharia da região
 
 Nesse meu projeto, utilizei as seguintes tecnologias:
 
--Next;
--Sass;
--Typescript;
+-Next
+-Sass
+-Typescript
 
 E biblioteca como:
 -React Vertical Timeline Component
