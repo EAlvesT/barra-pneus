@@ -5,6 +5,8 @@ import { Galeria } from "@/components/(secoes)/galeria";
 import { Contato } from "@/components/(secoes)/contato";
 import { Endereco } from "@/components/(secoes)/endereco";
 
+export const revalidate = 120;
+
 export default function Home() {
   return (
     <>
